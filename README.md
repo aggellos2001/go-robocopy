@@ -2,7 +2,7 @@
 
 ## Disclaimer
 
-> This is an unofficial wrapped for robocopy. There is no affiliation with Microsoft or any of its subsidiaries in any way. Use it at your own risk.
+> This is an unofficial wrapper for robocopy. There is no affiliation with Microsoft or any of its subsidiaries in any way. Use it at your own risk.
 
 Robocopy or Robust File Copy is a command line tool developed by Microsoft for copying files and directories from one location to another.
 
