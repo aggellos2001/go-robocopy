@@ -1,3 +1,5 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/aggellos2001/go-robocopy)](https://goreportcard.com/report/github.com/aggellos2001/go-robocopy) ![Static Badge](https://img.shields.io/badge/License-MIT-_)
+
 # go-robocopy
 
 ## Disclaimer
@@ -65,7 +67,3 @@ Also you can get the slice containing all the arguments to manually create the c
 ```go
 cmd.GetCommandArgs()
 ```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
