@@ -8,7 +8,6 @@ import (
 
 type AFlags flags.Flag
 
-// The following flags are also used in the file selection options.
 const (
 	R AFlags = 1 << iota // Read only
 	A                    // Archive
