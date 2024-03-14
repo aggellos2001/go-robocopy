@@ -6,9 +6,14 @@
 
 > This is an unofficial wrapper for robocopy. There is no affiliation with Microsoft or any of its subsidiaries in any way. Use it at your own risk.
 
+***
+
 Robocopy or Robust File Copy is a command line tool developed by Microsoft for copying files and directories from one location to another.
 
 This is an **unofficial wrapper** written in Go to programmatically produce a robocopy command and execute it.
+
+> [!IMPORTANT]
+> This library can **only** be compiled for Windows targets as it relies on the robocopy command.
 
 ## Installation
 
@@ -21,7 +26,6 @@ go get github.com/aggellos2001/go-robocopy
 After that you need to import the module in your code.
 
 ```go
-
 import (
     gorobocopy "github.com/aggellos2001/go-robocopy"
 )
@@ -29,7 +33,7 @@ import (
 
 ## Examples
 
-You can create a new command instance by calling the NewRobocopy constructor.
+You can create a new command instance by calling the NewRobocopy constructor:
 
 ```go
 cmd := gorobocopy.NewRobocopy(
@@ -39,7 +43,7 @@ cmd := gorobocopy.NewRobocopy(
 )
 ```
 
-You can then set some options for the command.
+You can then set some options for the command:
 
 ```go
 cmd.SetCopyOptions(&gorobocopy.CopyOptions{
